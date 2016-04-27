@@ -30,4 +30,3 @@ Credits:
 	- html5shiv.js (@afarkas @jdalton @jon_neal @rem)
 	- Dropotron (n33.co)
 	- 5grid.js + 5grid-ui.js (n33.co)
-	- salautufjnerwoi
