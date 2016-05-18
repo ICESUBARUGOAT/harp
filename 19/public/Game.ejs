@@ -76,7 +76,7 @@
                         b.status = 0;
                         score++;
                         if(score == brickRowCount*brickColumnCount) {
-                            alert("YOU WIN, CONGRATS!");
+                            alert("Game Over :p");
                             document.location.reload();
                         }
                     }
@@ -146,7 +146,7 @@
             else {
                 lives--;
                 if(!lives) {
-                    alert("GAME OVER");
+                    alert("ah perdu :)");
                     document.location.reload();
                 }
                 else {
