@@ -1,0 +1,26 @@
+
+<nav id="nav">
+	<ul>
+		<li class="<% if (current.source == 'index') { %>current_page_item <% } %>"><a href="/index">Home</a></li>
+		<li>
+			<a href="">animations JS</a>
+			<ul>
+				<li><a href="/Game">Jeux atari</a></li>
+				<li><a href="#">Magna phasellus</a></li>
+				<li><a href="#">Etiam dolore nisl</a></li>
+				<li>
+					<a href="">Phasellus consequat</a>
+					<ul>
+						<li><a href="#">Magna phasellus</a></li>
+						<li><a href="#">Etiam dolore nisl</a></li>
+						<li><a href="#">Veroeros feugiat</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Veroeros feugiat</a></li>
+			</ul>
+		</li>
+		<li class="<% if (current.source == 'right-sidebar') { %>current_page_item <% } %>"><a href="/menu">Subaru Sama</a></li>
+		<li class="<% if (current.source == 'left-sidebar') { %>current_page_item <% } %>"><a href="/left-sidebar">Ice Tea</a></li>
+		<li class="<% if (current.source == 'no-sidebar') { %>current_page_item <% } %>"><a href="/no-sidebar">Chevre</a></li>
+	</ul>
+</nav>
