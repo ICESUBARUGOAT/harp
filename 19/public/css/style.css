@@ -616,6 +616,34 @@
 			{
 				background: #f7f7f7 url('images/bg02.png');
 			}
+			
+	#main-wrapper1
+	{
+		position: relative;
+		background: #f7f7f7 url('images/s1.jpg');
+	}
+
+		#main-wrapper1:before
+		{
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			background: url('images/bg01.png');
+			background-size: 100% 100%;
+			z-index: 0;
+			opacity: 0.1;
+		}
+		
+		#main-wrapper1 .major
+		{
+		}
+		
+			#main-wrapper .major h2
+			{
+				background: #f7f7f7 url('images/bg02.png');
+			}
 	
 	#footer-wrapper
 	{
