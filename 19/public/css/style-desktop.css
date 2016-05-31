@@ -172,6 +172,16 @@
 			height: 5em;
 		}
 	
+	#main-wrapper1
+	{
+		padding: 6em 0 6em 0;
+	}
+
+		#main-wrapper1:after
+		{
+			height: 5em;
+		}
+	
 	#footer-wrapper
 	{
 		padding: 6em 0 6em 0;
